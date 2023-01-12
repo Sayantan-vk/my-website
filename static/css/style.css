@@ -29,6 +29,8 @@ body {
     background-color: var(--black);
     color: var(--white);
     font-size: var(--font-size);
+    height: 100vh;
+    position: relative;
 
 }
 
@@ -407,6 +409,9 @@ small {
     footer {
         padding: 2rem 1rem 1rem 1rem;
         margin: 0;
+        position: absolute;
+        bottom : 0px;
+        width:100%;
 
     }
 
